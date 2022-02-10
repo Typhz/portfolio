@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
 const HeaderContainer = styled.header`
-  background-color: transparent;
-  padding: 4rem var(--global-padding);
+  background-color: rgba(251, 251, 254,0.9);
+  width: 100%;
+  padding: 2rem var(--global-padding);
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   display: flex;
+  position: fixed;
+  backdrop-filter: blur(5px);
   h3{
     font-size: 1rem;
     font-weight: 600;
