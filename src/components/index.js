@@ -5,5 +5,6 @@ export { default as Button} from './Button';
 export { default as Badge} from './Badge';
 export { default as Card} from './Card';
 export { default as ContainerMotion} from './Layout/ContainerMotion';
+export { default as Main} from './Layout/Main';
 export { default as Footer} from './Layout/Footer';
 export { default as Grid} from './Layout/Grid';

@@ -1,6 +1,6 @@
 import Head from '../src/infra/components/Head'
-import { Section, Button, Badge, TitlePage ,Card ,Grid } from '../src/components/index'
-import { Main, SocialMedia, TitleSection } from "../styles/home.style"; 
+import { Section, Main ,Button, Badge, TitlePage ,Card ,Grid } from '../src/components/index'
+import { SocialMedia, TitleSection } from "../styles/home.style"; 
 import { FiGithub } from "@react-icons/all-files/fi/FiGithub";
 import { FiLinkedin } from "@react-icons/all-files/fi/FiLinkedin";
 import { FiArrowRight } from "@react-icons/all-files/fi/FiArrowRight";
@@ -49,7 +49,6 @@ export default function Home() {
     <ContainerMotion>
       <Head title="Patrick Reis | Desenvolvedor Frontend"/>
       <Main>
-        <div>
           <small>Desenvolvedor Frontend</small>
           <TitlePage>
             Olá, eu me chamo Patrick <span>👋</span>
@@ -80,7 +79,6 @@ export default function Home() {
               <FiLinkedin/>
             </a>
           </SocialMedia>
-        </div>
       </Main>
       <Section>
         <TitleSection>Portfolio</TitleSection>

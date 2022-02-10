@@ -1,15 +1,5 @@
 import styled from 'styled-components';
 
-export const Main = styled.main`
-  min-height: 20vh;
-  padding: 2rem var(--global-padding);
-  flex-wrap: wrap;
-  flex: 1;
-  flex-direction: column;
-  justify-content: space-between;
-  display: flex;
-`; 
-
 export const TitleSection = styled.h1`
   font-size: 48px;
 `;

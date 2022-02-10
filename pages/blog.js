@@ -1,6 +1,5 @@
 import Head from '../src/infra/components/Head'
-import { Main } from "../styles/blog.style"; 
-import { ContainerMotion, TitlePage } from '../src/components'
+import { Main, Section ,ContainerMotion, TitlePage } from '../src/components'
 import { getConfig, getAllPosts } from '../api'
 import Link from 'next/link'
 
@@ -9,13 +8,13 @@ export default function Blog(props) {
     <ContainerMotion>
       <Head title="Patrick Reis | Desenvolvedor Frontend"/>
       <Main>
-        <div>
-          <TitlePage>
-            Blog <span>✍️</span>
-          </TitlePage>
-          <p>Compartilho qualquer coisa que possa ajudar outras pessoas, tecnologias que estou usando e coisas legais que fiz.</p>
-        </div>
-        <ul>
+        <TitlePage>
+          Blog <span>✍️</span>
+        </TitlePage>
+        <p>Compartilho qualquer coisa que possa<br/> ajudar outras pessoas, tecnologias que estou usando e coisas legais que fiz.</p>
+      </Main>
+      <Section>
+      <ul>
           {props.posts.map(function(post, idx){
               return (
                   <li key={idx}>
@@ -26,7 +25,7 @@ export default function Blog(props) {
               )
           })}
         </ul>
-      </Main>
+      </Section>
     </ContainerMotion>
   );
 }

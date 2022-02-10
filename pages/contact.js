@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Head from '../src/infra/components/Head'
-import { Section, TitlePage } from '../src/components/index'
-import { Main, Form } from "../styles/contact.style"; 
+import { Main, Section, TitlePage } from '../src/components/index'
+import { Form } from "../styles/contact.style"; 
 import { useRouter } from 'next/router'
 import { ContainerMotion } from '../src/components'
 
