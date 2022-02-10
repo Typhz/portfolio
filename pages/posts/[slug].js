@@ -1,5 +1,4 @@
 import Head from '../../src/infra/components/Head'
-import { Main, SocialMedia } from "../../styles/blog.style"; 
 import { getPostBySlug, getAllPosts } from "@api"
 import PostLayout from '@layouts/post'
 import { ContainerMotion } from '../../src/components'

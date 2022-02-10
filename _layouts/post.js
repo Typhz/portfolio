@@ -1,6 +1,5 @@
 import { Main } from '../styles/article.style';
 import Head from 'next/head'
-import Link from 'next/link'
 
 export default function PostLayout(props){
     return (

@@ -2,10 +2,11 @@ import styled from 'styled-components';
 
 export const Main = styled.main`
   color: #292929;
-  width: 90%;
-  min-height: 90vh;
-  padding: 0 var(--global-padding);
+  width: 100%;
+  min-height: 200vh;
+  padding: 8rem var(--global-padding);
   flex-wrap: wrap;
+  justify-content: center;
   flex-direction: column;
   flex: 1;
   display: flex;
