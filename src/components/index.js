@@ -1,0 +1,9 @@
+export { default as Header} from './Header';
+export { default as Section} from './Section';
+export { default as TitlePage} from './TitlePage';
+export { default as Button} from './Button';
+export { default as Badge} from './Badge';
+export { default as Card} from './Card';
+export { default as ContainerMotion} from './Layout/ContainerMotion';
+export { default as Footer} from './Layout/Footer';
+export { default as Grid} from './Layout/Grid';
