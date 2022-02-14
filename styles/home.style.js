@@ -17,4 +17,5 @@ export const SocialMedia = styled.div`
 
 export const TitleSection = styled.h1`
   font-size: 48px;
+  margin: 0.5rem 0;
 `;
