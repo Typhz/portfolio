@@ -85,7 +85,7 @@ export default function Home() {
         {projects.map((item, key) => (
             <Card key={key}>
               <h3>{item.name}</h3>
-              <p>{item.desc}</p>
+              <p style={{marginTop: 8}}>{item.desc}</p>
               <br/>
               <a 
                 target="_blank"
