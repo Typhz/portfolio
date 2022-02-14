@@ -39,9 +39,6 @@ const GlobalStyle = createGlobalStyle`
         --global-padding: 2rem; 
       }
   }
-  main{
-    padding: 0 var(--global-padding);
-  }
   a.link-portfolio{
     color: #010101;
     text-decoration: none;
