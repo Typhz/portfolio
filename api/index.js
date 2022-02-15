@@ -11,7 +11,9 @@ export async function getAllPosts() {
       const meta = matter(content.default)
       posts.push({
         slug: post.replace('.md', ''),
-        title: meta.data.title
+        title: meta.data.title,
+        description: meta.data.description,
+        date: meta.data.date
       })
     }
     return posts
@@ -29,5 +31,5 @@ export async function getPostBySlug(slug){
 
 export async function getConfig(){
     const config = await import(`../config.yml`)
-    return yaml.load( config.default )
+    return yaml.load(config.default)
 }
