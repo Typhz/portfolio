@@ -1,5 +1,7 @@
 ---
 title:  "Customizando PowerShell com Oh My Posh"
+description: "Neste artigo fornecerei algumas orientações para lhe ajudar a personalizar sua linha de comando para PowerShell usando o Oh My Posh"
+date: "15 Feveiro 2022"
 ---
 
 ## Introdução  
