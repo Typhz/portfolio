@@ -53,7 +53,7 @@ export default function Home() {
           <TitlePage>
             Olá, eu me chamo Patrick <span>👋</span>
           </TitlePage>
-          <p>Desenvolvedor Frontend com mais de 2 anos de estudo criando sistemas web.</p>
+          <p>Desenvolvedor Frontend com experiência em ReactJs/NextJs.</p>
           <div style={{ width: 300, alignItems: 'center',justifyContent: 'space-between' ,display: 'flex', marginTop: 12, }}>
             <Button 
               variant="primary" 
@@ -113,8 +113,7 @@ export default function Home() {
           <Grid>
             <div>
               <p>
-                Olá, meu nome é Patrick Reis, sou estudo programaçao web à mais de 2 anos criando aplicações de uso próprio ou para outras empresas atuando como freelancer. Procuro sempre aprender e trabalhar com novas tecnologias.
-
+                Olá, meu nome é Patrick Reis, estudo programaçao web à mais de 2 anos criando aplicações de uso próprio e para empresas atuando como freelancer.
               </p>
               </div>
               <div>
