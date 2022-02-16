@@ -4,7 +4,7 @@ function Head({ title }){
   return(
     <NextHead>
       <title>{ title }</title>
-      <meta name="description" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dignissimos porro nulla tenetur unde possimus harum ipsum ipsam consequuntur, sunt vitae odit maxime, autem animi? Quasi reiciendis facilis dolores sed." />
+      <meta name="description" content="Olá, meu nome é Patrick Reis, estudo programaçao web à mais de 2 anos criando aplicações de uso próprio e para empresas atuando como freelancer." />
       <meta name="theme-color" content="#000"/>
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
@@ -15,10 +15,12 @@ function Head({ title }){
       <meta property="og:title" content="Patrick Reis | Desenvolvedor" />
       <meta property="og:site_name" content="Patrick Reis | Desenvolvedor" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="/assets/opengraph.png" />
-      <meta property="og:og:description" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dignissimos porro nulla tenetur unde possimus harum ipsum ipsam consequuntur, sunt vitae odit maxime, autem animi? Quasi reiciendis facilis dolores sed." />
+      {/* <meta property="og:image" content="/assets/opengraph.png" /> */}
+      <meta property="og:image:url" content="https://i.imgur.com/DckCRyY.png"/>
+      <meta property="og:image:type" content="image/png" /> 
       <meta property="og:image:width" content="400" />
       <meta property="og:image:height" content="1000" />
+      <meta property="og:description" content="Olá, meu nome é Patrick Reis, estudo programaçao web à mais de 2 anos criando aplicações de uso próprio e para empresas atuando como freelancer." />
     </NextHead>
   )
 }
