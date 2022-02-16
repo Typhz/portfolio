@@ -1,6 +1,6 @@
 import Head from '../../src/infra/components/Head';
 import { Main, Section ,ContainerMotion, TitlePage } from '../../src/components';
-import { PostContainer } from './components';
+import PostContainer from './components/PostContainer';
 import { getConfig, getAllPosts } from '../../api';
 import { CgMouse } from "@react-icons/all-files/cg/CgMouse";
 import Link from 'next/link'
